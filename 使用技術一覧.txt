@@ -1,0 +1,10 @@
+front-end
+・html
+・bootstrap
+・css
+・scss
+・javascript
+・jQuery(flexslider)
+
+back-end
+・python(flask)
