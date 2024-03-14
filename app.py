@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import sqlite3
 
 app = Flask(__name__)
 
@@ -18,6 +17,10 @@ def seets():
 @app.route('/access')
 def access():
     return render_template('/access.html')
+
+@app.route('/大皿')
+def oozara():
+    return render_template('/大皿.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,5 +1,9 @@
 div.container-m {
     margin-top: 70px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
     h2{
         color: white;
         font-size:2.5rem;
@@ -46,5 +50,12 @@ div.container-m {
     }
     .card-header{
         display: none;
+    }
+}
+@media screen and (max-width:400px) {
+    .custom-card{
+        img{
+            max-height: 150px;
+        }
     }
 }

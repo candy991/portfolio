@@ -40,4 +40,9 @@ iframe {
   .shopinfo .sitem {
     margin-left: -4vw;
   }
+}
+@media screen and (min-width: 1600px) {
+  .shopinfo .sitem {
+    margin-left: 15vw;
+  }
 }/*# sourceMappingURL=access.css.map */

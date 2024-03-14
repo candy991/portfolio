@@ -1,11 +1,13 @@
 .contena {
   padding-top: 30px;
   color: white;
+  margin-bottom: 20px;
 }
 .contena .c {
   padding-left: 5px;
   display: inline-block;
   border-left: 4px solid gold;
+  margin-left: 18%;
 }
 .contena .mgn {
   display: flex;
@@ -29,6 +31,36 @@
   font-size: 15px;
 }
 
+@media screen and (max-width: 1100px) {
+  .contena .c {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contena .c {
+    margin-left: 11%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contena .c {
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .contena .c {
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .contena .c {
+    margin-left: 20%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .contena .c {
+    margin-left: 23%;
+  }
+}
 @media screen and (max-width: 500px) {
   .contena {
     margin: 0 auto;
