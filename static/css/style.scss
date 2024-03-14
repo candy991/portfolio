@@ -56,6 +56,7 @@ footer {
   border-top: 1px solid #ffffff;
   background: url(../img/bg-footer.png);
   width: 100%;
+  margin-top: 50px;
   a {
     text-decoration: none;
   }
@@ -112,7 +113,7 @@ footer {
           color: #595655;
           background: none !important;
           border-bottom: 2px solid #ce4152;
-          padding-right:10px
+          padding-right: 10px;
         }
       }
       h5 {
@@ -185,8 +186,6 @@ footer {
   transition: 0.3s;
   color: #ce4152;
   background: #fff;
-
-  /*   デフォルトは非表示 */
   opacity: 0;
 }
 .pagetop:hover {

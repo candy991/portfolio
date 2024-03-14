@@ -46,6 +46,7 @@ footer {
   border-top: 1px solid #ffffff;
   background: url(../img/bg-footer.png);
   width: 100%;
+  margin-top: 50px;
 }
 footer a {
   text-decoration: none;
@@ -164,7 +165,6 @@ footer ul li a:hover {
   transition: 0.3s;
   color: #ce4152;
   background: #fff;
-  /*   デフォルトは非表示 */
   opacity: 0;
 }
 

@@ -34,7 +34,7 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .pankuzu ul li{
+  .pankuzu ul li {
     font-size: 0.8rem;
   }
   .pankuzu ul .first {
@@ -46,7 +46,6 @@
 }
 .toppart p {
   width: 38%;
-  /*  min-width:320px; */
   margin: 0 auto 10px;
   text-align: center;
   font-size: 1.7rem;
@@ -55,7 +54,6 @@
 }
 
 .toppart h2 {
-  /*  width: 1100px; */
   margin: 0 auto;
   text-align: center;
   font-size: 3rem;
@@ -63,7 +61,7 @@
 
 @media screen and (max-width: 500px) {
   .toppart p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .toppart h2 {
     font-size: 2rem;
