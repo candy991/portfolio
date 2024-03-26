@@ -1,3 +1,4 @@
+//ページトップに戻るボタンの作成
 const pagetop_btn = document.querySelector(".pagetop");
 
 pagetop_btn.addEventListener("click", scroll_top);

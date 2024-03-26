@@ -1,6 +1,10 @@
 .t {
   padding-top: 40px;
 }
+.t .card {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .t .card-body .card-titles {
   padding-left: 10px;
   font-weight: 1500;
@@ -17,7 +21,30 @@
   font-size: 1.2rem;
   font-weight: 1000;
 }
-.t .ftext {
-  padding-top: 20px;
-  font-size: 18px;
+.t .box {
+  text-align: center;
+}
+.t .box .btn {
+  display: inline-block;
+  margin-top: 30px;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.t .box .btn :hover {
+  color: black;
+}
+.t .box .btn p {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 3px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .t .box .btn {
+    width: 30%;
+  }
 }/*# sourceMappingURL=inmenu.css.map */

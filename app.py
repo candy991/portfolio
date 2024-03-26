@@ -18,9 +18,9 @@ def seets():
 def access():
     return render_template('/access.html')
 
-@app.route('/大皿')
+@app.route('/menu/大皿')
 def oozara():
-    return render_template('/大皿.html')
+    return render_template('menus/大皿.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -24,6 +24,15 @@ header .nav-item .nav-link:hover h5 {
   background-color: #7e242e;
   color: #ffffff;
 }
+header .custom-nav {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .custom-nav i {
+  color: #ce4152;
+}
 header .navbar .nav-link {
   font-size: 16px;
   font-weight: 700;
@@ -108,6 +117,12 @@ footer ul li a:hover {
   header .nav-item h5 {
     text-align: left !important;
     padding-left: 10px;
+  }
+  header .custom-ul {
+    margin: 0 auto;
+  }
+  header .custom-nav {
+    padding: 0;
   }
   .navbar-brand {
     padding-left: 20%;
