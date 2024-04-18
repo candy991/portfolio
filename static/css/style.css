@@ -4,6 +4,9 @@ header {
   font-family: "Sora", "sans-serif";
   border-bottom: 2px solid #ebc92b;
 }
+header .imga a:hover {
+  opacity: 0.8;
+}
 header nav {
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #eaeaea 50%, #eaeaea 100%);
 }
@@ -123,12 +126,19 @@ footer ul li a:hover {
   }
   header .custom-nav {
     padding: 0;
+    gap: 60px;
   }
   .navbar-brand {
     padding-left: 20%;
   }
   header nav {
     background: linear-gradient(to bottom, #ffffff 0%, #ffffff 16%, #eaeaea 16%, #eaeaea 100%);
+  }
+  footer ul {
+    border-right: none;
+  }
+  footer li {
+    margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 546px) {
@@ -155,6 +165,7 @@ footer ul li a:hover {
     border-bottom: 1px solid #ffffff;
   }
   footer ul li {
+    margin-bottom: 0;
     padding-top: 4%;
     padding-bottom: 4%;
     display: block;

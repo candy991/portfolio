@@ -13,6 +13,9 @@
   text-decoration: none;
   color: #ebc92b;
 }
+.pankuzu ul li a:hover{
+  border-bottom: solid 1px #ebc92b;
+}
 @media screen and (max-width: 600px) {
   .pankuzu ul {
     margin-top: 15% !important;
